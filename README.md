@@ -1,2 +1,4 @@
-# Machine-Learning-from-Scratch
-Machine Learning Algorithms from Scratch
+# Machine Learning Algorithms from Scratch
+
+### Algorithms:
+1. Linear Regression
