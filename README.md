@@ -2,3 +2,4 @@
 
 ### Algorithms:
 1. Linear Regression
+2. K-nearest Neighbours
