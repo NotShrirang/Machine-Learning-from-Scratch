@@ -1,10 +1,6 @@
-import random
 import warnings
 from collections import Counter
-
-import matplotlib.pyplot as plt
 import numpy as np
-from matplotlib import style as st
 
 
 class KNNClassifier():
@@ -13,25 +9,16 @@ class KNNClassifier():
         self.__distances: list[list[float]] = [[]]
 
     def __str__(self) -> str:
-        pass
-    
-    def plot(self, style: str = "fivethirtyeight") -> None:
-        """
-        Plots graph of dataset and the regression line.
-        """
-        st.use(style)
-        try:
-            pass
-        except ValueError:
-            print("\nERROR: No data to plot.\nPlease fit the model before plotting the line.\n\n")
+        print(self.__X__, self.y if self.__X__ is not None else "Not data to show.")
 
     def fit(self, X: list[list[float]], y: list[int]) -> None:
-        train_set: dict[int, list[list[float]]] = {classNo: [] for classNo in y}
         test_set: dict[int, list[list[float]]] = {classNo: [] for classNo in y}
+        train_set: dict[int, list[list[float]]] = {classNo: [] for classNo in y}
         for count, i in enumerate(y):
             train_set[i].append(X[count])
             test_set[i].append(X[count])
-        # print(train_set, "\n\n\n\n\n\n\n\n\n\n", test_set,"\n\n\n\n\n\n\n\n", len(train_set[2]), len(train_set[4]), len(test_set[2]), len(test_set[4]))
+        self.__X__ = train_set
+        self.y = train_set
         vote_list: list[int] = []
         for group in test_set:
             for predict_data in test_set[group]:
@@ -39,7 +26,7 @@ class KNNClassifier():
     
     def __k_nearest_neighbours__(self, data: dict[int, list[list[float]]], predict: list[float]):
         if len(data) >= self.k:
-            warnings.warn('K is set to a value less than total voting groups!')
+            warnings.warn('K is less than number of labels!')
         distances = []
         for group in data:
             for features in data[group]:
@@ -52,8 +39,8 @@ class KNNClassifier():
         return vote_result
 
     def predict(self, X: list[list[float]]):
-        print(self.__distances)
+        predicted_values = [self.__k_nearest_neighbours__(self.__X__, datapoint) for datapoint in X]
+        return predicted_values
 
     def confidence(self):
         return self.__confidence
-    
