@@ -75,6 +75,6 @@ std::vector<float> LinearRegression::predict(std::vector<float> X) {
     return y_predict;
 }
 
-void LinearRegression :: display() {
+void LinearRegression::display() {
     std::cout << "Slope : " << m << "\nc : " << c;
 }
