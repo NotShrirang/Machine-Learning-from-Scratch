@@ -9,4 +9,4 @@ The neural network is implemented by using NumPy only. <br>
 
 You can run <code>neural_networks.py</code> file to see the demonstration.
 
-Successfully classified breast cancer data with 94.99% accuracy.
+Successfully classified breast cancer data with 94.29% accuracy.
