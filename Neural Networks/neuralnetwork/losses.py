@@ -5,7 +5,9 @@ class Loss:
         sample_losses = self.forward(self, output, y)
         data_loss = np.mean(sample_losses)
         return data_loss
-    
+    def forward(self, y_pred, y_true):
+        pass
+
 class CategoricalCrossentropy(Loss):
     def forward(self, y_pred, y_true):
         samples = len(y_pred)
