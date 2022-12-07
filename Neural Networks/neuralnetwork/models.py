@@ -19,7 +19,7 @@ class Sequential:
         return self.__least_loss
 
     def fit(self, X, y, epoch: int, print_output: bool = False, iteration: int = 5000):
-        self.iteration = 5000
+        self.iteration = iteration
         self.__best_weights = [layer.weights for layer in self.layers]
         self.__best_biases = [layer.biases for layer in self.layers]
         history = []
