@@ -1,6 +1,19 @@
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/85283622/206227131-e25b01d8-4c35-4770-a4e9-728655766858.png"></a>
+</div>
+
 # Neural Networks
 
-The neural network is implemented by using NumPy only. <br>
+Basic neural network implementation by using NumPy only. <br>
+
+Main Repository : https://github.com/NotShrirang/OpenNN <br>
+And PyPI Package : https://pypi.org/project/open-nn-python/
+
+## Installing pydbops with PyPI :
+
+```sh
+pip install open-nn-python
+```
 
 ### Includes:
 1. The Rectified Linear Activation function (ReLU)
