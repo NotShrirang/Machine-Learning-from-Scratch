@@ -5,4 +5,4 @@
 2. K-nearest Neighbours
 3. Support Vector Machine
 
-Neural Networks added with ReLU and Softmax Activations and Categorical Cross Entropy losses.
+<a href="https://github.com/NotShrirang/Machine-Learning-from-Scratch/tree/main/Neural%20Networks">Neural Networks</a> added with ReLU, Softmax Activations and Categorical Cross Entropy losses.
