@@ -1,4 +1,4 @@
-# Machine Learning Algorithms from Scratch
+# Machine Learning And Deep Learning Algorithms from Scratch
 
 ### Algorithms:
 1. Linear Regression
