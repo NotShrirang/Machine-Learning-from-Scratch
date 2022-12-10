@@ -13,7 +13,7 @@ In this repository, major machine learning and deep learning algorithms are impl
   4. <a href="https://github.com/NotShrirang/Machine-Learning-from-Scratch/tree/main/Neural%20Networks">Artificial Neural Networks</a>
 
 #### Unsupervised Learning:
-  1. <a href="">K-Means Clustering</a>
+  1. <a href="https://github.com/NotShrirang/Machine-Learning-from-Scratch/tree/main/K-nearest%20Neighbours">K-Means Clustering</a>
   
 <hr>
 
