@@ -1,7 +1,5 @@
 import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-from matplotlib import style
+
 
 class MeanShift:
     def __init__(self, radius = None, radius_norm_step = 100) -> None:
