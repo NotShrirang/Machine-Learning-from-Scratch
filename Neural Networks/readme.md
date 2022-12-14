@@ -9,7 +9,7 @@ Basic neural network implementation by using NumPy only. <br>
 Main Repository : https://github.com/NotShrirang/OpenNN <br>
 And PyPI Package : https://pypi.org/project/open-nn-python/
 
-## Installing pydbops with PyPI :
+## Installing this with PyPI :
 
 ```sh
 pip install open-nn-python
