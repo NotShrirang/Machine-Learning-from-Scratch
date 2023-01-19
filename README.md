@@ -19,7 +19,7 @@ In this repository, major machine learning and deep learning algorithms are impl
 <hr>
 
 ## Deep Learning:
-<a href="https://github.com/NotShrirang/Machine-Learning-from-Scratch/tree/main/Neural%20Networks">Neural Networks</a> added with ReLU, Softmax Activations and Categorical Cross Entropy losses.
+<a href="https://github.com/NotShrirang/Machine-Learning-from-Scratch/tree/main/Neural%20Networks">Neural Networks</a> added with ReLU, Softmax Activations and Categorical Cross Entropy losses, and Optimizers such as SGD, Adam.
 
 To use this implementation:
 
