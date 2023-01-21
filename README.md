@@ -1,4 +1,4 @@
-# Machine Learning And Deep Learning Algorithms from Scratch
+# AgainML - A Machine Learning And Deep Learning Library from Scratch
 
 [![v0.1.1](https://img.shields.io/badge/version-v0.1.1-red.svg?style=flat&logo=)](https://pypi.org/project/AgainML/)
 [![PyPI Latest Release](https://img.shields.io/pypi/v/pydbops.svg)](https://pypi.org/project/AgainML/)
