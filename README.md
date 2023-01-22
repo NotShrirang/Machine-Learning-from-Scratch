@@ -1,7 +1,7 @@
 # AgainML - A Machine Learning And Deep Learning Library from Scratch
 
 [![v0.1.1](https://img.shields.io/badge/version-v0.1.1-red.svg?style=flat&logo=)](https://pypi.org/project/AgainML/)
-[![PyPI Latest Release](https://img.shields.io/pypi/v/pydbops.svg)](https://pypi.org/project/AgainML/)
+[![PyPI Latest Release](https://img.shields.io/pypi/v/againml.svg)](https://pypi.org/project/AgainML/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat&logo=license)](https://github.com/NotShrirang/Machine-Learning-from-Scratch/blob/main/LICENSE)
 [![Language: Python](https://img.shields.io/badge/language-python-blue.svg?style=flat&logo=python)](https://www.python.org/)
 
