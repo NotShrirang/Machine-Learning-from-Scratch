@@ -19,6 +19,10 @@ pip install AgainML
 
 ## Algorithms:
 
+#### Data Transformation:
+  1. <a href="https://github.com/NotShrirang/Machine-Learning-from-Scratch/tree/main/Data%20Transformation">MinMax Scaler</a>
+  2. <a href="https://github.com/NotShrirang/Machine-Learning-from-Scratch/tree/main/Data%20Transformation">Standard Scaler</a>
+
 #### Supervised Learning:
   1. <a href="https://github.com/NotShrirang/Machine-Learning-from-Scratch/tree/main/Linear%20Regression">Linear Regression</a>
   2. <a href="https://github.com/NotShrirang/Machine-Learning-from-Scratch/tree/main/K-nearest%20Neighbours">K-nearest Neighbours</a>
